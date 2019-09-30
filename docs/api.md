@@ -523,7 +523,7 @@ A `single-spa:app-change` event is fired every time that one or more apps were l
 ## no-app-change event
 
 ```js
-singleSpa.addEventListener('single-spa:before-routing-event', () => {
+singleSpa.addEventListener('single-spa:no-app-change', () => {
 	console.log('A routing event occurred where zero applications were mounted/unmounted');
 });
 ```
